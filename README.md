@@ -51,7 +51,7 @@
 
 - Bài 1:
 Testcase 1:
-
+```text
   [Client]
   Sending GET request...
   Response:
@@ -69,8 +69,9 @@ Testcase 1:
   POST request received:
   Payload: Xin chao tu CoAP Client - B23DCCN037 - Nguyen Tien Anh
   Time: 07:45:28
-
+```
 Testcase 2:
+```text
   [Client]
   Sending GET request...
   Response:
@@ -88,7 +89,7 @@ Testcase 2:
   POST request received:
   Payload: Xin chao tu CoAP Client - B23DCCN690 - Nguyen Van Quang
   Time: 07:47:56
-
+```
 - Bài 2:
 
   [15:27:41] Received sensor data
