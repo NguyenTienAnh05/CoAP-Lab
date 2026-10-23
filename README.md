@@ -51,8 +51,9 @@
 
 - Bài 1:
 Testcase 1:
-```text
+
   [Client]
+ ```text
   Sending GET request...
   Response:
   Code: 2.05 Content
@@ -64,15 +65,17 @@ Testcase 1:
   Response:
   Code: 2.04 Changed
   Payload: Server da nhan thong diep
-
+```
   [Server]
+```text  
   POST request received:
   Payload: Xin chao tu CoAP Client - B23DCCN037 - Nguyen Tien Anh
   Time: 07:45:28
 ```
 Testcase 2:
-```text
+
   [Client]
+```text  
   Sending GET request...
   Response:
   Code: 2.05 Content
@@ -84,20 +87,22 @@ Testcase 2:
   Response:
   Code: 2.04 Changed
   Payload: Server da nhan thong diep
-
+```
   [Server]
+```text
   POST request received:
   Payload: Xin chao tu CoAP Client - B23DCCN690 - Nguyen Van Quang
   Time: 07:47:56
 ```
 - Bài 2:
-
+```text
   [15:27:41] Received sensor data
   Device: sensor01
   Temperature: 26.3 C
   Humidity: 50.4 %
   Trang thai: Binh thuong
   ----------------------------------
+
   [15:27:44] Received sensor data
   Device: sensor01
   Temperature: 30.0 C
@@ -116,10 +121,11 @@ Testcase 2:
   Humidity: 52.2 %
   Trang thai: Binh thuong
   ----------------------------------
-
+```
 - Bài 3 (Smart Light Observe Log mẫu):
 
   [Controller]
+  ```text
   Nhap lenh: ON
   Sending PUT request...
   Response Code: 2.04 Changed
@@ -139,8 +145,9 @@ Testcase 2:
 
   Nhap lenh: EXIT
   Exiting controller...
-
+  ```
   [Server]
+```text
   CoAP Smart Light Server started...
   Resource: /iot/lab/light01/status
 
@@ -160,8 +167,9 @@ Testcase 2:
 
   GET request received
   GET request received
-
+```
   [Monitor]
+```text  
   Registering CoAP Observe...
 
   [15:31:06] State Update Received
