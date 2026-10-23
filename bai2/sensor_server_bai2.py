@@ -5,7 +5,6 @@ import logging
 import aiocoap
 import aiocoap.resource as resource
 
-
 class SensorResource(resource.Resource):
     def __init__(self):
         super().__init__()
@@ -16,17 +15,9 @@ class SensorResource(resource.Resource):
     async def update_sensor_periodically(self):
         while True:
             await asyncio.sleep(3)
+            
             self.temperature = round(random.uniform(20.0, 40.0), 1)
             self.humidity = round(random.uniform(30.0, 90.0), 1)
-            
-        
-            log_data = {
-                
-                "device_id": "sensor01",
-                "temperature": self.temperature,
-                "humidity": self.humidity
-            }
-            print(json.dumps(log_data, ensure_ascii=False))
 
     async def render_get(self, request):
         data = {
