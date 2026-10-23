@@ -9,7 +9,7 @@ async def main():
     
     try:
         while True:
-            # Thêm cổng :5683 vào URI để tránh lỗi NetworkError
+            
             request = aiocoap.Message(code=aiocoap.GET, uri="coap://127.0.0.1:5683/iot/lab/sensor01/data")
             try:
                 response = await context.request(request).response
