@@ -51,6 +51,7 @@
 
 - Bài 1:
 Testcase 1:
+
   [Client]
   Sending GET request...
   Response:
@@ -89,6 +90,7 @@ Testcase 2:
   Time: 07:47:56
 
 - Bài 2:
+
   [15:27:41] Received sensor data
   Device: sensor01
   Temperature: 26.3 C
