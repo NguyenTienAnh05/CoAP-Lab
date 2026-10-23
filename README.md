@@ -52,7 +52,7 @@
 - Bài 1:
 Testcase 1:
 
-  [Client]
+ Client
  ```text
   Sending GET request...
   Response:
@@ -66,7 +66,7 @@ Testcase 1:
   Code: 2.04 Changed
   Payload: Server da nhan thong diep
 ```
-  [Server]
+Server
 ```text  
   POST request received:
   Payload: Xin chao tu CoAP Client - B23DCCN037 - Nguyen Tien Anh
@@ -74,7 +74,7 @@ Testcase 1:
 ```
 Testcase 2:
 
-  [Client]
+Client
 ```text  
   Sending GET request...
   Response:
@@ -88,7 +88,7 @@ Testcase 2:
   Code: 2.04 Changed
   Payload: Server da nhan thong diep
 ```
-  [Server]
+Server
 ```text
   POST request received:
   Payload: Xin chao tu CoAP Client - B23DCCN690 - Nguyen Van Quang
@@ -122,10 +122,10 @@ Testcase 2:
   Trang thai: Binh thuong
   ----------------------------------
 ```
-- Bài 3 (Smart Light Observe Log mẫu):
+- Bài 3:
 
-  [Controller]
-  ```text
+Controller
+ ```text
   Nhap lenh: ON
   Sending PUT request...
   Response Code: 2.04 Changed
@@ -145,8 +145,8 @@ Testcase 2:
 
   Nhap lenh: EXIT
   Exiting controller...
-  ```
-  [Server]
+ ```
+Server
 ```text
   CoAP Smart Light Server started...
   Resource: /iot/lab/light01/status
@@ -168,7 +168,7 @@ Testcase 2:
   GET request received
   GET request received
 ```
-  [Monitor]
+Monitor
 ```text  
   Registering CoAP Observe...
 
