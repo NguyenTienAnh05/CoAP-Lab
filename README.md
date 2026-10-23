@@ -52,7 +52,7 @@
 6. KẾT QUẢ ĐẠT ĐƯỢC VÀ LOG MINH CHỨNG
 
 - Bài 1:
-Testcase 1:
++ Testcase 1:
   [Server]
  Response:
 Code: 2.05 Content
@@ -69,7 +69,7 @@ Payload: Server da nhan thong diep
 POST request received:
  Payload: Xin chao tu CoAP Client - B23DCCN037 - Nguyen Tien Anh
  Time: 07:45:28
-Testcase 2:
++ Testcase 2:
 
   [Server]
 Response:
