@@ -69,7 +69,7 @@ BÀI 3: Hệ thống đèn thông minh với CoAP Observe
 7. KẾT QUẢ ĐẠT ĐƯỢC VÀ LOG MINH CHỨNG
 
 - Bài 1:
-Testcase 1:
++ Testcase 1:
 
  Client
  ```text
