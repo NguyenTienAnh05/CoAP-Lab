@@ -35,7 +35,7 @@
 |
 |-- README.md
 ```
-
+- Cách chạy
 BÀI 1: Giao tiếp CoAP cơ bản (GET & POST) 
 - Terminal 1 (Khởi động Server):
   python bai1/coap_server_bai1.py
