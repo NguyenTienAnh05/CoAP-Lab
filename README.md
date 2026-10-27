@@ -15,7 +15,15 @@
   pip install aiocoap
 - Lưu ý mạng: Giao thức CoAP chạy trên UDP, cổng mặc định là 5683. Khi chạy trên hai máy khác nhau, cần cho phép tường lửa (Firewall) mở cổng UDP 5683.
 
-4. CẤU TRÚC THƯ MỤC
+4. ĐỊA CHỈ IP, CỔNG VÀ URI CÁC TÀI NGUYÊN CoAP
+- Host/IP chạy cục bộ: 127.0.0.1 (localhost)
+- Cổng mặc định: 5683
+- Danh sách URI tài nguyên:
+  + Bài 1: coap://localhost:5683/iot/lab/message (GET, POST)
+  + Bài 2: coap://localhost:5683/iot/lab/sensor01/data (GET định kỳ 3s)
+  + Bài 3: coap://localhost:5683/iot/lab/light01/status (GET, PUT, OBSERVE)
+
+5. CẤU TRÚC THƯ MỤC
 ```text
    CoAP_Lab/
 |
@@ -34,7 +42,7 @@
 |
 |-- README.md
 ```
-5. CÁCH CHẠY TỪNG CHƯƠNG TRÌNH
+6. CÁCH CHẠY TỪNG CHƯƠNG TRÌNH
 
 BÀI 1: Giao tiếp CoAP cơ bản (GET & POST) 
 - Terminal 1 (Khởi động Server):
@@ -58,13 +66,6 @@ BÀI 3: Hệ thống đèn thông minh với CoAP Observe
   python bai3/light_controller_bai3.py
   (Nhập trực tiếp các lệnh từ bàn phím: ON, OFF, STATUS, EXIT)
 
-6. ĐỊA CHỈ IP, CỔNG VÀ URI CÁC TÀI NGUYÊN CoAP
-- Host/IP chạy cục bộ: 127.0.0.1 (localhost)
-- Cổng mặc định: 5683
-- Danh sách URI tài nguyên:
-  + Bài 1: coap://localhost:5683/iot/lab/message (GET, POST)
-  + Bài 2: coap://localhost:5683/iot/lab/sensor01/data (GET định kỳ 3s)
-  + Bài 3: coap://localhost:5683/iot/lab/light01/status (GET, PUT, OBSERVE)
 
 7. KẾT QUẢ ĐẠT ĐƯỢC VÀ LOG MINH CHỨNG
 
