@@ -16,7 +16,7 @@
 - Lưu ý mạng: Giao thức CoAP chạy trên UDP, cổng mặc định là 5683. Khi chạy trên hai máy khác nhau, cần cho phép tường lửa (Firewall) mở cổng UDP 5683.
 
 4. CÁCH CHẠY TỪNG CHƯƠNG TRÌNH
-Cấu trúc thư mục
+- Cấu trúc thư mục
 ```text
    CoAP_Lab/
 |
