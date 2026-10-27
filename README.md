@@ -16,20 +16,39 @@
 - Lưu ý mạng: Giao thức CoAP chạy trên UDP, cổng mặc định là 5683. Khi chạy trên hai máy khác nhau, cần cho phép tường lửa (Firewall) mở cổng UDP 5683.
 
 4. CÁCH CHẠY TỪNG CHƯƠNG TRÌNH
+Cấu trúc thư mục
+```text
+   CoAP_Lab/
+|
+|-- bai1/
+|   |-- coap_server_bai1.py
+|   |-- coap_client_bai1.py
+|
+|-- bai2/
+|   |-- sensor_server_bai2.py
+|   |-- monitor_client_bai2.py
+|
+|-- bai3/
+|   |-- light_server_bai3.py
+|   |-- light_controller_bai3.py
+|   |-- light_monitor_bai3.py
+|
+|-- README.md
+```
 
---- BÀI 1: Giao tiếp CoAP cơ bản (GET & POST) ---
+BÀI 1: Giao tiếp CoAP cơ bản (GET & POST) 
 - Terminal 1 (Khởi động Server):
   python bai1/coap_server_bai1.py
 - Terminal 2 (Chạy Client gửi yêu cầu):
   python bai1/coap_client_bai1.py
 
---- BÀI 2: Mô phỏng cảm biến nhiệt độ & độ ẩm ---
+BÀI 2: Mô phỏng cảm biến nhiệt độ & độ ẩm 
 - Terminal 1 (Khởi động Sensor Server):
   python bai2/sensor_server_bai2.py
 - Terminal 2 (Khởi động Monitoring Client):
   python bai2/monitor_client_bai2.py
 
---- BÀI 3: Hệ thống đèn thông minh với CoAP Observe ---
+BÀI 3: Hệ thống đèn thông minh với CoAP Observe
 (Cần mở đồng thời 3 terminal riêng biệt)
 - Terminal 1 (Khởi động Smart Light Server):
   python bai3/light_server_bai3.py
